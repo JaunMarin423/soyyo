@@ -1,6 +1,6 @@
-# Project Title
+# soy yo
 
-A short description about the project and/or client.
+Prueba de entrevita tecnica
 
 ## Getting Started
 
@@ -19,7 +19,7 @@ The things you need before installing the software.
 A step by step guide that will tell you how to get the development environment up and running.
 
 ```
-$ First step
+$ npm i o npm install
 $ Another step
 $ Final step
 ```
@@ -29,8 +29,8 @@ $ Final step
 A few examples of useful commands and/or tasks.
 
 ```
-$ First example
-$ Second example
+$ npm run start
+$ npm run test
 $ And keep this in mind
 ```
 
