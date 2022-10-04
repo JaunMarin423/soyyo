@@ -8,7 +8,7 @@ const server = () => {
     const app = express();
     // middlewares
     app.use(express.json());
-    app.use('/soy-yo', soyYo);
+    app.use('/entities/filter', soyYo);
     return app;
 };
 

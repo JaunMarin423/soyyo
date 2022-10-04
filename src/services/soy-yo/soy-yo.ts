@@ -1,7 +1,6 @@
 import { saludo } from "../../core/core";
 
-
-export const sendMessage = async () => {
+export const sendMessage = async ( _startId: string, _endId: string ) => {
 
     await saludo();
 

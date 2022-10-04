@@ -31,7 +31,7 @@ A few examples of useful commands and/or tasks.
 ```
 $ npm run start
 $ npm run test
-$ And keep this in mind
+$ npm run dev
 ```
 
 ## Deployment

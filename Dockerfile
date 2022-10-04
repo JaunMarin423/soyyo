@@ -8,7 +8,7 @@ rm -rf /var/cache/yum
 ARG NODE_ENV=production
 ENV NODE_ENV=${NODE_ENV}
 
-WORKDIR /usr/src/app
+WORKDIR /usr/src/index
 
 COPY package*.json ./
 COPY node_modules/ /node_modules
