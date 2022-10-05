@@ -1,11 +1,15 @@
-import { saludo } from "../../core/core";
+import { getEntitie } from "../../core/core";
 
-export const sendMessage = async ( _startId: string, _endId: string ) => {
+export const soyYoEntity = async ( _startId: number, _endId: number ) => {
+    const variable = await getEntitie(_startId);
 
-    await saludo();
+    const response = variable.data;
+    let {attributeValidator, ipAddress, domain, ...rest} = response;
+    let entity = [];
 
+    entity.push( rest )
+ 
     return {
-    sendNotification: "response",
-    message: 'notification successfully sent to user'
+        entity
     }
 };

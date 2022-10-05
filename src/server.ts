@@ -6,6 +6,7 @@ import {
 
 const server = () => {
     const app = express();
+    
     // middlewares
     app.use(express.json());
     app.use('/entities/filter', soyYo);
