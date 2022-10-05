@@ -19,9 +19,9 @@ The things you need before installing the software.
 A step by step guide that will tell you how to get the development environment up and running.
 
 ```
-$ npm i o npm install
-$ Another step
-$ Final step
+$ npm i 
+$ npm install
+$ npm run tsc // collection
 ```
 
 ## Usage
